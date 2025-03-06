@@ -12,7 +12,7 @@
                     <input type="text" class="form-control" value="{{ $post->title }}" name="title">
                 </div>
                 <div class="form-group">
-                    <label>内容</label>
+                    <label>コンテンツ</label>
                     <textarea class="form-control" rows="5" name="body">{{ $post->body }}</textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">更新する</button>
